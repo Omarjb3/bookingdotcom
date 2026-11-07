@@ -4,7 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Omarjb3/bookingdotcom/issues"
   },
-  "homepage": "https://github.com/Omarjb3/bookingdotcom#readme"
+  "homepage": "https://github.com/Omarjb3/bookingdotcom#readme",
+  "devDependencies": {
+    "prettier": "^3.9.10"
+  }
 }
